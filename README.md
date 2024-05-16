@@ -1,0 +1,2 @@
+# Webpack-Boilerplate
+ Boilerplate, no contexto de desenvolvimento de software, refere-se a um código padrão, genérico e reutilizável que pode ser aplicado em várias situações sem muita modificação. Essencialmente, é um conjunto de código que é utilizado repetidamente em diferentes projetos para realizar tarefas comuns ou estabelecer estruturas básicas. Em resumo, o boilerplate ajuda os desenvolvedores a economizar tempo e esforço ao fornecer um ponto de partida consistente para seus projetos.
