@@ -6,7 +6,8 @@
 
 # Instalando Dev-dependences
 No terminal:
-1. npm init -y
+
+    1. npm init -y
 
 npm init -y é um comando usado no Node.js para inicializar um novo projeto npm rapidamente, sem a necessidade de responder a uma série de 
 perguntas interativas. Quando você executa esse comando, ele cria um arquivo package.json no diretório atual com valores padrão para as 
@@ -14,20 +15,20 @@ configurações do projeto, como nome, versão, descrição, autor, licença, et
 aceitar automaticamente todas as configurações padrão, sem solicitar nenhuma entrada do usuário. Isso é útil quando você quer configurar 
 rapidamente um novo projeto e não precisa especificar detalhes personalizados de imediato. 
 
-2. npm i --save-dev @babel/core @babel/cli @babel/preset-env babel-loader webpack webpack-cli core-js@2 regenerator-runtime
+    2. npm i --save-dev @babel/core @babel/cli @babel/preset-env babel-loader webpack webpack-cli core-js@2 regenerator-runtime
 
 Esse comando npm i --save-dev @babel/core @babel/cli @babel/preset-env babel-loader webpack webpack-cli core-js@2 regenerator-runtime instala várias dependências do Babel, Webpack e outras ferramentas úteis para configurar e transpilar seu código JavaScript para versões compatíveis com navegadores mais antigos.
 
 Vamos dar uma olhada no que cada uma dessas dependências faz:
 
-2. 1. @babel/core, @babel/cli, @babel/preset-env: São pacotes do Babel, uma ferramenta de transpilação JavaScript. @babel/core é o núcleo do Babel, @babel/cli fornece uma interface de linha de comando para o Babel, e @babel/preset-env é um conjunto de plugins que permite transpilar seu código para a versão do ECMAScript que os navegadores alvo suportam.
+1. @babel/core, @babel/cli, @babel/preset-env: São pacotes do Babel, uma ferramenta de transpilação JavaScript. @babel/core é o núcleo do Babel, @babel/cli fornece uma interface de linha de comando para o Babel, e @babel/preset-env é um conjunto de plugins que permite transpilar seu código para a versão do ECMAScript que os navegadores alvo suportam.
 
-2. 2. babel-loader: Um loader para o Webpack que permite transpilar arquivos JavaScript usando o Babel durante o processo de construção.
+2. babel-loader: Um loader para o Webpack que permite transpilar arquivos JavaScript usando o Babel durante o processo de construção.
 webpack, webpack-cli: São pacotes do Webpack, uma ferramenta de construção de módulos para JavaScript. webpack é o próprio Webpack e webpack-cli fornece uma interface de linha de comando para o Webpack.
 
-2. 3. core-js@2: Uma biblioteca que fornece polyfills para recursos JavaScript modernos em navegadores mais antigos.
+3. core-js@2: Uma biblioteca que fornece polyfills para recursos JavaScript modernos em navegadores mais antigos.
 
-2. 4. regenerator-runtime: Uma dependência do Babel que é usada para habilitar o suporte para funcionalidades avançadas do ECMAScript, como async/await, em navegadores que não têm suporte nativo para elas.
+4. regenerator-runtime: Uma dependência do Babel que é usada para habilitar o suporte para funcionalidades avançadas do ECMAScript, como async/await, em navegadores que não têm suporte nativo para elas.
 
 Essas dependências são comumente usadas juntas para configurar um ambiente de desenvolvimento moderno para projetos JavaScript, permitindo escrever código usando recursos modernos do ECMAScript enquanto garante a compatibilidade com navegadores mais antigos.
 
